@@ -1,0 +1,11 @@
+﻿using p1bpoo.MisClases;
+public class KTM : Vehiculo
+{
+    public KTM(int anio, string elcolor, string elmodelo) : base(anio, elcolor, elmodelo)
+    {
+        TiposdelicenciaAceptados = new List<string> { "M"};
+    }
+}
+
+
+
