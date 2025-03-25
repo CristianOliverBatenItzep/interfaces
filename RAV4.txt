@@ -1,0 +1,11 @@
+﻿using p1bpoo.MisClases;
+public class RAV4 : Vehiculo
+{
+    public RAV4(int anio, string elcolor, string elmodelo) : base(anio, elcolor, elmodelo)
+    {
+        TiposdelicenciaAceptados = new List<string> { "A", "b", "c" };
+    }
+}
+
+
+
